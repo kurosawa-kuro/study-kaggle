@@ -5,13 +5,13 @@ from sklearn.model_selection import train_test_split, KFold, GridSearchCV, cross
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import accuracy_score
 
-from catboost import CatBoostClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from sklearn.svm import LinearSVC
 from sklearn.neighbors import KNeighborsClassifier
 from xgboost import XGBClassifier
 from lightgbm import LGBMClassifier
+from catboost import CatBoostClassifier
 
 RANDOM_STATE = 42
 
